@@ -1,22 +1,26 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>TryBash Emulator</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="./node_modules/bootstrap-css/lib/grid.css"></script>
-    <script src="./node_modules/bash-emulator/bash-emulator.min.js"></script>
-  </head>
-  <body>
-
-    <div class="row" id="terminal">
-      <div class="col-md-4">
-        <div id="output"></div>
-        <div id="input-parent" class="row">
-            <label class="col-md-4">vinicius@fsociety:/</label>
-            <input class="col-md-4" id="input" type="text" autofocus />
+<head>
+    <meta charset="utf-8">
+    <title>Vinicius Luiz</title>
+    <link rel="stylesheet" type="text/css" href="./css/index-styles.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-css/lib/grid.css">
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" align="center" style="margin-top: 20%">
+            <h1>Você considera o seu conhecimento em TI root ou nutella?</h1>        
         </div>
-      </div>
+        <div class="row" align="center">
+            <div class="col-md-2 col-md-offset-3">
+                <button id="root" onclick="redirect_to(this.id)" value="root">Eu sou Root</button>
+            </div>
+            <div class="col-md-2">
+                <button id="nutella" onclick="redirect_to(this.id)" value="nutella">Eu sou Nutella</button>
+            </div>
+        </div>
     </div>
-
-    <script src="./scripts.js"></script>
-  <body>
-<html>
+<script type="text/javascript" src="./js/index-scripts.js"></script>
+</body>
+</html>

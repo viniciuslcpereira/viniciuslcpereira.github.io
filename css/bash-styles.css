@@ -1,35 +1,26 @@
 body {
   color: white;
-  background: #ffffff;
+}
+body, #input {
+  background: black;
   font-size: 150%;
   font-family: monospace;
   line-height: 120%;
 }
-
-#terminal {
-  height: 50%;
-  padding: 20px;
-  background-color: black;
-}
-
 #output {
-  /*background: black;*/
   min-height: 92%;
   white-space: pre;
+  max-width: 100%;
+  word-break:break-all;
 }
-
 #input {
-  font-size: 90%; 
-  height: 8%;
-  background: black;
+  font-size: 100%;
   border: none;
   color: lime;
 }
-
 #input:focus {
   outline: none;
 }
-
 .error {
   color: red;
 }

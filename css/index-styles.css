@@ -1,0 +1,18 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: lime;
+}
+
+button {
+    color: lime;
+    border-radius: 0px;
+    border: solid lime 1px;
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
